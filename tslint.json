@@ -1,3 +1,4 @@
+{
   "rules": {
     "member-access": true,
     "no-reference": true,
@@ -48,18 +49,9 @@
     "class-name": true,
     "no-angle-bracket-type-assertion": true,
     "no-consecutive-blank-lines": true,
-    "quotemark": [
-      true,
-      "single"
-    ],
-    "semicolon": [
-      true,
-      "always"
-    ],
-    "space-before-function-paren": [
-      true,
-      "never"
-    ],
+    "quotemark": [true, "single"],
+    "semicolon": [true, "always"],
+    "space-before-function-paren": [true, "never"],
     "whitespace": [
       true,
       "check-decl",
