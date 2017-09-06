@@ -1,0 +1,28 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "coffee-script-to-typescript": "^0.1.0",
+    "d3": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^4.10.0",
+    "css-loader": "^0.28.5",
+    "d3-transform": "^1.0.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "hot": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
